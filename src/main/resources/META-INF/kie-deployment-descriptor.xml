@@ -9,7 +9,14 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers/>
+    <work-item-handlers>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.radisys.wso2.restRESTServiceWIH()</identifier>
+            <parameters/>
+            <name>RESTWIH</name>
+        </work-item-handler>
+    </work-item-handlers>
     <environment-entries/>
     <configurations/>
     <required-roles/>
