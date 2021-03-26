@@ -1,15 +1,16 @@
 [
   [
-    "name" : "MyTask", 
+    "name" : "RESTWIH", 
     "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
+        "url" : new StringDataType(),
+        "httpMethod" : new StringDataType(),
+        "body" : new ObjectDataType(), 
+        
     ], 
     "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
+        "Result" : new StringDataType() 
     ], 
-    "displayName" : "My Task", 
+    "displayName" : "RESTWIH Task", 
     "icon" : "" 
   ]
 ]
