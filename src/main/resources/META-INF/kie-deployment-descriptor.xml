@@ -16,6 +16,12 @@
             <parameters/>
             <name>RESTWIH</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.radisys.wso2.restRESTServiceWIH()</identifier>
+            <parameters/>
+            <name>CreateUserRS</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
