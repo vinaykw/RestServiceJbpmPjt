@@ -11,6 +11,6 @@
     ], 
     "displayName" : "CreateUserRESTService", 
     "icon" : ""
-    "defaultHandler" : "mvel: new RESTWIH()"
+    "defaultHandler" : "mvel: new com.radisys.wso2.rest.RESTServiceWIH()"
   ]
 ]
