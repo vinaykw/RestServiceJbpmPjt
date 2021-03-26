@@ -10,6 +10,7 @@
         "Result" : new StringDataType() 
     ], 
     "displayName" : "CreateUserRESTService", 
-    "icon" : "" 
+    "icon" : ""
+    "defaultHandler" : "mvel: new RESTWIH()"
   ]
 ]
