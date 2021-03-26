@@ -6,12 +6,33 @@ package com.demo.restservice;
 
 public class CreateUser implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CreateUser() {
-    }
+	private java.lang.String userName;
+	private java.lang.String password;
 
+	public CreateUser() {
+	}
 
+	public java.lang.String getUserName() {
+		return this.userName;
+	}
 
+	public void setUserName(java.lang.String userName) {
+		this.userName = userName;
+	}
+
+	public java.lang.String getPassword() {
+		return this.password;
+	}
+
+	public void setPassword(java.lang.String password) {
+		this.password = password;
+	}
+
+	public CreateUser(java.lang.String userName, java.lang.String password) {
+		this.userName = userName;
+		this.password = password;
+	}
 
 }
