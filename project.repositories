@@ -3,8 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>C:\Users\vkwari/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
+        <url>http://172.24.100.15:8081/artifactory/repo</url>
         <source>PROJECT</source>
       </metadata>
     </repository>
