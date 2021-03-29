@@ -8,7 +8,8 @@
         "body" : new ObjectDataType() 
     ], 
     "results" : [ 
-        "Result" : new StringDataType() 
+        "Result" : new StringDataType(),
+        "Response" : new StringDataType()
     ], 
     "displayName" : "CreateUserRESTService", 
     "icon" : ""
