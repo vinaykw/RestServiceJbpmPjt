@@ -7,7 +7,7 @@
         "body" : new ObjectDataType() 
     ], 
     "results" : [ 
-        "Result" : new new StringDataType() 
+        "Result" : new StringDataType() 
     ], 
     "displayName" : "GETUsers", 
     "icon" : "" 
