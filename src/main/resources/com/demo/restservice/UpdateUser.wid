@@ -1,15 +1,17 @@
 [
   [
-    "name" : "MyTask", 
+    "name" : "UpdateUser", 
     "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
+        "url" : new StringDataType(), 
+        "httpMethod" : new StringDataType(),
+        "bodyName" : new StringDataType(),
+        "body" : new ObjectDataType() 
     ], 
     "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
+        "Result" : new StringDataType(), 
+        "Response" : new StringDataType()
     ], 
-    "displayName" : "My Task", 
+    "displayName" : "UpdateUser", 
     "icon" : "" 
   ]
 ]
