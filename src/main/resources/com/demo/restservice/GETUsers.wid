@@ -7,7 +7,7 @@
         "body" : new ObjectDataType() 
     ], 
     "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
+        "Result" : new new StringDataType() 
     ], 
     "displayName" : "GETUsers", 
     "icon" : "" 
