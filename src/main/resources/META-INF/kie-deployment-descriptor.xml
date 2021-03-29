@@ -34,6 +34,12 @@
             <parameters/>
             <name>GETUsers</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.radisys.wso2.rest.RESTServiceWIH()</identifier>
+            <parameters/>
+            <name>UpdateUser</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
