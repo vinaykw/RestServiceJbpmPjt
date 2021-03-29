@@ -4,6 +4,7 @@
     "parameters" : [ 
         "url" : new StringDataType(),
         "httpMethod" : new StringDataType(),
+        "bodyName" : new StringDataType(),
         "body" : new ObjectDataType() 
     ], 
     "results" : [ 
