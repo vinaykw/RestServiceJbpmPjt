@@ -2,6 +2,8 @@
   <deployment>
     <exclusions>
       <module name="javax.json.api" />
+      <module name="javax.json.bind.api" />
+      <module name="org.glassfish.jakarta.json" />
     </exclusions>
   </deployment>
 </jboss-deployment-structure>
