@@ -1,0 +1,7 @@
+<jboss-deployment-structure>
+  <deployment>
+    <exclusions>
+      <module name="javax.json.api" />
+    </exclusions>
+  </deployment>
+</jboss-deployment-structure>
